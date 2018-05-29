@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1BBAD56A20BCBD460045C45F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAD56920BCBD460045C45F /* AppDelegate.swift */; };
-		1BBAD56C20BCBD460045C45F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAD56B20BCBD460045C45F /* ViewController.swift */; };
 		1BBAD56F20BCBD460045C45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBAD56D20BCBD460045C45F /* Main.storyboard */; };
 		1BBAD57120BCBD490045C45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBAD57020BCBD490045C45F /* Assets.xcassets */; };
 		1BBAD57420BCBD490045C45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBAD57220BCBD490045C45F /* LaunchScreen.storyboard */; };
+		1BBAD57D20BCBE3F0045C45F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAD57C20BCBE3F0045C45F /* ImageViewController.swift */; };
+		1BBAD58120BCC3F20045C45F /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAD58020BCC3F20045C45F /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BBAD56620BCBD460045C45F /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBAD56920BCBD460045C45F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BBAD56B20BCBD460045C45F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BBAD56E20BCBD460045C45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BBAD57020BCBD490045C45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BBAD57320BCBD490045C45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BBAD57520BCBD490045C45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BBAD57C20BCBE3F0045C45F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1BBAD58020BCC3F20045C45F /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		1BBAD56820BCBD460045C45F /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				1BBAD56920BCBD460045C45F /* AppDelegate.swift */,
-				1BBAD56B20BCBD460045C45F /* ViewController.swift */,
+				1BBAD58020BCC3F20045C45F /* DemoURLs.swift */,
+				1BBAD57C20BCBE3F0045C45F /* ImageViewController.swift */,
 				1BBAD56D20BCBD460045C45F /* Main.storyboard */,
-				1BBAD57020BCBD490045C45F /* Assets.xcassets */,
-				1BBAD57220BCBD490045C45F /* LaunchScreen.storyboard */,
+				1BBAD57B20BCBD7E0045C45F /* Supported Files */,
 				1BBAD57520BCBD490045C45F /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		1BBAD57B20BCBD7E0045C45F /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAD57220BCBD490045C45F /* LaunchScreen.storyboard */,
+				1BBAD57020BCBD490045C45F /* Assets.xcassets */,
+				1BBAD56920BCBD460045C45F /* AppDelegate.swift */,
+			);
+			path = "Supported Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBAD56C20BCBD460045C45F /* ViewController.swift in Sources */,
+				1BBAD57D20BCBE3F0045C45F /* ImageViewController.swift in Sources */,
 				1BBAD56A20BCBD460045C45F /* AppDelegate.swift in Sources */,
+				1BBAD58120BCC3F20045C45F /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
